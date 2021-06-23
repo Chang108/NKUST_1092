@@ -1,0 +1,116 @@
+*{
+      position:relative;
+    }
+    
+    html,body{
+      width:100%; height:100%;
+      padding:0px;margin:0px;
+    }
+    
+    body{
+      background-color:#000000;
+      border-top: solid 20px #2276d665;
+      border-bottom: solid 20px #2276d665;
+      box-sizing: border-box;
+      
+      overflow:hidden;
+    }
+    
+    .namecard{
+      width:350px; height:200px;
+      padding:20px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:150px;
+      background-color:#2276d6a8;
+      letter-spacing:1px;
+      font-weight:100;
+      color:rgb(253, 253, 253);
+      overflow:hidden;
+      border:solid 1px rgb(255, 255, 255);
+      border-radius:10px;
+      
+      box-shadow:0px 0px 15px rgb(255, 255, 255);
+      
+    }
+    
+    .namecard h2{
+      font-size:25px;
+      font-weight:600;
+    }
+    
+    .namecard h2 span{
+      font-size:12px;
+    }
+    
+    .namecard h5{
+      color:#ffffff;
+      font-weight:400;
+    }
+    
+    .namecard p{
+      font-size:12px;
+      line-height:22px;
+      
+    }
+    
+    .circle{
+      width:100px;height:100px;
+      border-radius:100%;
+      position: absolute;
+      right:100px;
+    }
+    .circle1{
+        width:60px;height:60px;
+        right:-30px;
+        top:-30px;
+        border:solid 3px #f8f5f5; 
+      }
+    .circle2{
+      right:70px; 
+      top:190px;
+      background-color:#f8f5f5;
+    }
+    .circle3{
+        width:20px;height:20px;
+        right:60px; 
+        top:190px;
+        background-color:#f8f5f5;
+      }
+    .circle4{
+        width:10px;height:10px;
+        right:55px; 
+        top:215px;
+        background-color:#f8f5f5;
+    }
+  
+
+    .page_title{
+      text-align:center;
+      color:#666;
+      font-weight:100;
+      font-size:12px;
+      margin:20px;
+      letter-spacing:3px;
+    }
+    
+    .mark{
+      font-size:300px;
+      position:absolute;
+      bottom:100px;
+      font-weight:100;
+      color: rgb(97, 97, 97);  
+    }
+
+    a {
+        color: #ffffff;
+        text-decoration:none;
+      }
+      a:hover {
+        color: #2275D6;
+      }
+      
+      a:not([href]):not([class]), a:not([href]):not([class]):hover {
+        color: inherit;
+        text-decoration: none;
+      }
